@@ -1,0 +1,6 @@
+{
+  "name": "United Airlines — Essentials of Management",
+  "description": "A hybrid research-rich, interactive case study and academic presentation analyzing United Airlines across the core management functions: Planning, Organizing, Staffing, Leadership, and Controlling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

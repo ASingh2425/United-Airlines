@@ -1,0 +1,829 @@
+# United Airlines — Essentials of Management
+
+## Website architecture & design blueprint
+
+This is going to work beautifully as a hybrid, research-rich, interactive presentation website: a cinematic opening that feels like an aviation brand experience, followed by seven deeply developed chapters that feel like an interactive management case study.
+
+The key design decision is that we will not force the report into a conventional slide deck. Each chapter will have its own narrative, sub-sections, evidence, visualizations, management analysis, and presentation-friendly navigation. The website should feel polished enough to explore independently, but structured enough that you can present it confidently in class.
+
+[Editorial typography and layout inspiration](https://images.openai.com/static-rsc-4/FDjVWYvOq4xYurx24fgIQ1BXxiEQ3ahOmuYd-vhqIEYlQR3u7aICbdI11Mh4MXyLR97TWJcxgVMrMZJtOLcrWcbhaanTGfB-XHyw3O7Cla3ZQiAqK8uOXp6tsibauAwwfBgr1yUIBb3qnOao4fkW-mwmm4hP1JFP2AhwqAGRf44?purpose=inline)
+
+[Aviation analytics dashboard inspiration](https://images.openai.com/static-rsc-4/ZqeDxDcFBxf5Ac-Zglgul9ZdVp0DbIWYCctM4VEg5-hzLdaNEMnUW70yk1IUx3Tx5YrRdltM4-KLdaB3sSDLCJfVI0Kzr0AEMaaydHNggeG4_oTS1S_stm11lrr1Pdi_QQgR5cnJtsCw-MgxbagVw54mgiNSGdPEJzEhJQ4jnTI?purpose=inline)
+
+Visual references for the direction: cinematic aviation imagery, editorial typography, and evidence-led data displays. These are inspiration references, not official United Airlines brand assets.
+
+## 1. The experience we are building
+
+01 — Cinematic opening
+
+A full-screen aviation hero, a strong title treatment, subtle motion, and an invitation to explore the management of a global airline.
+
+02 — Interactive chapter atlas
+
+Seven clearly numbered chapters, each with its own visual identity, reading progress, sub-section navigation, and return-to-overview control.
+
+03 — Research and evidence
+
+Financial charts, a historical timeline, hub/network visuals, strategic frameworks, management-function diagrams, and clearly attributed sources.
+
+04 — Classroom presentation mode
+
+Keyboard navigation, optional full-screen sections, readable text, presenter-friendly pacing, and a dedicated sources view.
+
+The governing principle: the site should be visually cinematic at the surface and academically rigorous underneath. Motion should reveal information, not compete with it.
+
+## 2. Recommended information architecture
+
+Use a single website with seven main chapter routes, a central overview, and supporting research pages. Each chapter can contain as many sub-sections as the report requires.
+
+## UNITED AIRLINES
+
+Essentials of Management · Term Project · October 2026
+
+Opening / Executive Overview
+
+Company snapshot · central question · seven-chapter navigator
+
+CHAPTER 01
+
+Introduction
+
+CHAPTER 02
+
+Planning
+
+CHAPTER 03
+
+Organizing
+
+CHAPTER 04
+
+Staffing
+
+CHAPTER 05
+
+Leadership
+
+CHAPTER 06
+
+Controlling
+
+CHAPTER 07
+
+Conclusion
+
+Research Library & References
+
+Source notes · bibliography · data definitions · image credits
+
+### Suggested routes
+
+| Route                        | Purpose                                  |
+| ---------------------------- | ---------------------------------------- |
+| `/`                          | Cinematic landing page                   |
+| `/overview`                  | Company snapshot and seven-chapter map   |
+| `/chapter/1` to `/chapter/7` | Complete chapter experiences             |
+| `/sources`                   | Consolidated references and source notes |
+| `/presentation`              | Presentation-mode entry point            |
+
+A route can open directly, so the instructor can jump to a chapter without having to replay the opening animation.
+
+## 3. Preserve the report's exact seven-chapter structure
+
+The site should preserve the chapter titles and numbered sub-sections from your October 2026 report. The design can expand each sub-section into several interactive content blocks, but it should not silently replace your report's organization with a different management framework.&#x20;
+
+Term Project Report - United Airlines - Oct 2026.pdf
+
+
+
+[Airline in flight](https://images.openai.com/static-rsc-4/C3mwtYlT16r9v-lxfOOXJpDSdsGJEsPokJ7mEjuLciCL7-GvYCKETFcsoiegi4gn131hHz__x0U9bdGrlu95vmGAVdw30FcuHC3xQBcmPVTs1BltjovC4jISMuMQBBcqg1pjIUaWqu2CmNA0eNrLEM9KnZIm57nRK-905XS9wrI?purpose=inline)
+
+### Chapter 1 — Introduction to United Airlines
+
+Company context and industry position
+
+- 1.1 Company Background
+- 1.2 Founding History and Timeline
+- 1.3 Products/Services Offered
+- 1.4 Market Presence and Industry Overview
+
+Interactive elements: company snapshot, historical timeline, revenue composition, route-network visualization, and industry context.
+
+[Aircraft fleet](https://images.openai.com/static-rsc-4/PZIaRXo1SWyns6grIP4-QnfN8piyjWzpZ_pTx9ociEtAUy0BF8e0sodS8hGlxjColLKu14FsIajgTJKVzH9Y0KCUKcylfMXRvByYENXrwDVEfVgOSpZ4GMOh6l_Ne9LM3W4d93fAR-mVE4fgNSs2vRGya6GU6WdjoISm9UK3iUc?purpose=inline)
+
+### Chapter 2 — Planning at United Airlines
+
+Direction, choices, and preparedness
+
+- 2.1 Nature of Planning in the Company
+- 2.2 Vision, Mission, Goals, and Objectives
+- 2.3 Types of Plans (strategic, tactical, operational followed in the Company)
+- 2.4 Planning Process Followed
+- 2.5 Policies, Programs, Procedures used in the Company
+
+Interactive elements: planning-horizon comparison, United Next strategy view, decision dependencies, planning-cycle diagram, and documented risk scenarios.
+
+[Airport teams coordinating operations](https://images.openai.com/static-rsc-4/Jy7ORJxHsZ-c9fdp2RN8e3RNYp8-8bmP0_O3qxQysnlPAdM6Ov7hDMwoI2SSHr9ECHbfSYzH7j6A_ojKfP9A4DEaVJ-4YqqWepcK8zP7e6UGE02jSLID9ZIhMzhrWxFldfVsar8wiUglhHZGA15cOd1GKdE7Pg7KWhM6wWfwaZM?purpose=inline)
+
+### Chapter 3 — Organizing at United Airlines
+
+Structure, authority, and coordination
+
+- 3.1 Organizational Structure (Line, Line & Staff, Functional, etc.)
+- 3.2 Division of Labor and Departmentalization
+- 3.3 Span of Control
+- 3.4 Delegation of Authority
+- 3.5 Unity of Command and Coordination Mechanisms
+
+Interactive elements: corporate-governance hierarchy, functional organization diagram, department map, and authority/coordination examples.
+
+[Airline employees in a training setting](https://images.openai.com/static-rsc-4/m7IDKoyUW1IXfY9C9ayJRd35r9hyLuPMoJSl_N68pLcsE2ageSAwv2aEzw7-K6VxziBy3K0WnBPqwXmW9RbW0w4FSQ8izzQSTL6nqutfgg-zQOfWs7nwij5L8Kv65t0Pc6TGnuC8N46dOGoN8j8FHhxHtWgnVjN5KUTx2A3hCJQ?purpose=inline)
+
+### Chapter 4 — Staffing at United Airlines
+
+People, capability, and workforce continuity
+
+- 4.1 HR Planning and Recruitment Strategies
+- 4.2 Training and Development Practices
+- 4.3 Performance Appraisal Methods
+- 4.4 Retention and Motivation Initiatives
+- 4.5 Succession Planning
+
+Interactive elements: employee lifecycle, training pathways, workforce-planning relationships, and a recruitment-to-retention journey.
+
+[Airline team briefing](https://images.openai.com/static-rsc-4/dxn9nrTSN7-nLJBZhEMlx8aBX3l5PMDhtIBktBFZgmF6hwJqRdwt1-VdfsJl53GAqbde-UOhIFLplr5bve6u28AX6wDbE6k8Vu8tQ8Nj2hYewDzNkPyZTCP-IRsF1jv93K2fRZRFmKXxAp7yKJW2aDavVBb6bkXareNw_FNxgE8?purpose=inline)
+
+### Chapter 5 — Leadership at United Airlines
+
+Leading people and coordinating action
+
+- 5.1 Leadership Style and Philosophy
+- 5.2 Communication Practices
+- 5.3 Motivation Techniques
+- 5.4 Teamwork and Group Dynamics
+- 5.5 Conflict Management and Resolution
+
+Interactive elements: leadership evidence cards, communication-flow diagram, teamwork scenario, and conflict-resolution decision path.
+
+[Airline operations control center](https://images.openai.com/static-rsc-4/26w1XTu0Ktc1UDHQ93CGVBkFbybNMc7cM63mOnHEdbfba6MRstINbXnldyU_73fly4mfeqRZz1tWqG9d9pAETkQ1JEX7SOGS2bx59XobuaUNE4hzY4Z6KCtbIJZ1CXg3mUSA7HzAB439z5Q1n23ixcA4_4k7Pt90H9w2La_txXI?purpose=inline)
+
+### Chapter 6 — Controlling at United Airlines
+
+Standards, measurement, correction, and learning
+
+- 6.1 Control Process (standards, measurement, corrective action)
+- 6.2 Financial and Non-Financial Controls
+- 6.3 Quality Management Practices
+- 6.4 Use of Technology in Control
+- 6.5 Feedback Mechanisms
+
+Interactive elements: control-loop animation, financial dashboard, safety-management process, technology-risk example, and feedback cycle.
+
+[Airliner taking off at sunrise](https://images.openai.com/static-rsc-4/xZT80s7GMBUtRbCHlQHLfeBs15efo2cdTQl012lFzSBmiamOD2hUVTdkqVn5rDuXDnAG6S9rG3YGbv4KWvLs_7Kfgw9-og2gfSmCOu13kKPxLhPg4LTvtPx5Mg8seHVBN_gemMjxgFISW_Gu-Usm3qah-4em5K2EzpjAioiKdhvuQ5I3SoMZKds6TcFLsOlF?purpose=inline)
+
+### Chapter 7 — Conclusion
+
+Synthesis of the management case study
+
+- 7.1 Key Insights from the Study
+- 7.2 Lessons Learned about Management Practices
+- 7.3 Overall Effectiveness of the Company’s Management Functions
+
+Interactive elements: synthesis of the five managerial functions, cross-chapter connections, final assessment, and a closing takeaway.
+
+These interactive elements are proposed design treatments. Their content must be grounded in the report or clearly labeled as management interpretation, rather than presented as undocumented internal United Airlines procedures.
+
+## 4. Visual design system
+
+## Color palette
+
+Midnight navy
+
+`#0B1929` · hero backgrounds, footer, deep sections
+
+Aviation blue
+
+`#173B5E` · navigation, data emphasis
+
+Warm ivory
+
+`#F5F2EA` · main reading surfaces
+
+Champagne gold
+
+`#C6A66B` · fine details, selected highlights
+
+Steel blue-grey
+
+`#9DAFB7` · secondary data and dividers
+
+Muted sage
+
+`#D9E2DC` · learning notes and contextual panels
+
+## Typography
+
+Recommended pairing: a refined serif for large editorial headlines and a highly readable sans-serif for body text, labels, charts, and navigation.
+
+UNITED AIRLINES · MANAGEMENT CASE STUDY
+
+# Managing complexity at global scale.
+
+A detailed exploration of planning, organizing, staffing, leadership, and control in a complex airline business.
+
+CHAPTER 02 / PLANNING AT UNITED AIRLINES
+
+### Layout rules
+
+- Use large editorial headings, generous whitespace, and short introductory summaries.
+- Break long academic content into meaningful, expandable sections, but keep essential explanations visible.
+- Use full-width cinematic sections sparingly; use narrower reading columns for detailed text.
+- Give charts their own space, with definitions, units, reporting period, and source notes.
+- Use gold as an accent rather than a dominant color.
+- Avoid excessive glassmorphism, glowing cards, decorative gradients, and constant motion. The site should feel premium, not like a gaming dashboard.
+
+## 5. Chapter-page template
+
+Every chapter should use the same dependable structure so the website is easy to navigate, even as its content becomes extensive.
+
+CHAPTER 02 · MANAGEMENT FUNCTION
+
+# Planning at United Airlines
+
+How long-term direction connects with day-to-day operating decisions.
+
+5 report subsections
+
+Evidence-led analysis
+
+CHAPTER NAVIGATION
+
+Overview
+
+2.1
+
+2.2
+
+2.3
+
+2.4
+
+2.5
+
+Takeaways
+
+### Chapter introduction
+
+A concise orientation that explains why the management function matters at United, before the detailed content begins.
+
+REPORT CONTENT
+
+Original subsection heading
+
+Detailed explanation preserving the report's meaning, terminology, examples, and level of depth. Longer sections can be split into multiple reading blocks.
+
+EVIDENCE / INTERACTIVE ELEMENT
+
+Chart, timeline, process map, or evidence card
+
+A visual that clarifies the evidence rather than replacing the written explanation.
+
+MANAGEMENT INTERPRETATION
+
+Explain what the evidence suggests about the relevant management function. Label interpretations separately from company-reported facts.
+
+CHAPTER WRAP-UP
+
+Key findings, limitations, and transition
+
+Summarize the section, identify what the evidence supports, and introduce the next chapter.
+
+### How to support extremely detailed content
+
+Each subsection should be capable of containing all of the following when relevant:
+
+1. Core explanation: the full academic explanation, not a one-line summary.
+2. Company-specific evidence: the examples and disclosures that the report actually uses.
+3. Visual interpretation: charts, diagrams, timelines, or structured comparisons.
+4. Management connection: how the example relates to the Essentials of Management concept.
+5. Implications and limitations: what can reasonably be inferred and what the available evidence does not establish.
+6. Sources: references attached to the relevant claims, with a consolidated bibliography at the end.
+
+Do not impose a fixed number of cards, sections, or screens per chapter. A short subsection can be compact; a complex subsection can have several screens of explanation and evidence.
+
+## 6. Interactive features that will make the website stand out
+
+The best features are the ones that make management concepts easier to understand, rather than simply making the website look animated.
+
+[Airline route network](https://images.openai.com/static-rsc-4/e2-n6jduvpQ-mqUiau1gztiC4SX0s7HPdQKWLdFjmmjJ3VMXJ7HAsfAT2zJljMD-UiU9GBNEVy0szx4uWI1b0zPgBfPvrHm37jPth565zDYOpjIS5OsPe2Vg0hYMf-NTvcdd47fwDOsCMwGS2lRDhFv7wuZvrwwJ_9e0cqCb2iE?purpose=inline)
+
+A. Interactive route-network map
+
+Show United's major hubs as selectable nodes. Selecting a hub reveals the relevant context and explains how geographic coordination supports the network business model. Use a schematic map unless verified route data is available.
+
+[Financial dashboard](https://images.openai.com/static-rsc-4/l5nvra-HZhEyLppVSWlEiNg_frXJ3s-Idhn-143Ay4nxP0e13HV5yPYSiihQjI7IAyATVfby8nenrhk0UBhXqXaIsFXr6QwI040CzrDXIvxDHX6SKSWHgeGbv5YPDwZrsRW_sXYSCwOcCMM1ngcfyrkdIzkkmhgL-if83mZ0Usw?purpose=inline)
+
+B. Financial evidence explorer
+
+Let visitors switch between revenue composition, operating expenses, profitability, and workforce indicators. Include units, reporting year, source, and explanatory annotations.
+
+[Historical timeline](https://images.openai.com/static-rsc-4/vViXd7lB0NCJB6K-82EuARuFKbc-JvUBrxNv1z2wI8MbfSZOm0Bae8IA-jW1YLa89FdcS9U8J7yPWbu7Az7DMkDiGusHEhgP4HKiYtWGmMCeGkNyr7mTh9MtCBjUSIc1dgnlCXysqh2YCCxKnXdCjldHLyNEOBvTkNPUE7xCwWc?purpose=inline)
+
+C. Historical timeline
+
+A scrollable timeline covering the report's historical milestones. Selecting an event opens a detail panel with the event's significance and its source.
+
+[Management process diagram](https://images.openai.com/static-rsc-4/6LQti6jF9E1eMFI0t5jOQLpvvcPoJe0SIOjuk2Zc0QJ6ljaF-57I3Bi8g9SWYM6hdyITd-S-0_DUar7OZyxXKLOnYw0kAcVJWhhhClDw4jW29sPKo7Qs-7i30AYq2p54Fx-lCYE8jUOGePcTCCKoUEEs8XjYXnvzdwznOmyViHs?purpose=inline)
+
+D. Management process diagrams
+
+Create explorable diagrams for planning, organizational authority, staffing, communication, and control. Each node should open a plain-language explanation and a United-specific example where the evidence supports it.
+
+[Presentation interface](https://images.openai.com/static-rsc-4/PTmAvlMJsth2oLhXpoDloz-u9KgOpxAQdkJkxZlIdq7_pjiQumKxO8835cBf4krbMPP1C_S0f-JpmBRd7JEIRpNUyqp6LXexktag2wf1c1Ih0vcA2laSg_qI3JQLnUC3805y0EZ0oVrk30YwsKExu9_dZ5HldfC0jfdR6YjoAL8?purpose=inline)
+
+E. Presentation mode
+
+Hide the main site navigation, increase the content area, support left/right arrow navigation, and provide clear chapter progress. Use optional full-screen mode rather than forcing it.
+
+### The signature feature: a management interconnection map
+
+The strongest analytical feature should appear near the conclusion. It connects the five managerial functions instead of treating them as unrelated chapters.
+
+### A UNITED NEXT FLEET EXPANSION
+
+Illustrative management scenario
+
+### Planning
+
+Fleet strategy, capacity, investment, and risk.
+
+### Organizing
+
+Responsibilities, functions, and coordination.
+
+### Staffing
+
+Recruitment, training, and workforce capacity.
+
+### Leadership
+
+Communication, teamwork, and change.
+
+### Controlling
+
+Measure performance, identify risks, take corrective action, and feed learning into future plans.
+
+This is an illustrative application of management theory, not a claim that United uses this exact internal workflow. The scenario demonstrates the report's central insight: a major operational decision has consequences across all five functions.
+
+## 7. Technical architecture for Google AI Studio
+
+I recommend using Google AI Studio to generate the first working version, with a clearly specified frontend architecture and a structured content system. The priority is to get the information architecture and all seven chapters right before spending time on advanced 3D effects.
+
+## Recommended stack
+
+React + TypeScript + Vite
+
+Component-based development, typed content structures, and a fast local development environment.
+
+Tailwind CSS
+
+Consistent typography, spacing, responsive layouts, colors, and reusable design tokens.
+
+Reusable React components
+
+Shared chapter templates, section navigation, evidence panels, source notes, and diagram containers. Use shadcn/ui selectively if its setup works with the generated project.
+
+Recharts + SVG diagrams
+
+Responsive charts and lightweight diagrams. Prefer SVG and CSS animations over heavy 3D scenes where they communicate the same information.
+
+Framer Motion (Motion for React)
+
+Page transitions, subtle reveal effects, chapter transitions, and restrained motion. Keep all essential content available without animation.
+
+Static deployment
+
+Deploy the finished frontend to Vercel or another compatible static host. A database is unnecessary unless you later introduce persistent user features.
+
+### Application structure
+
+```
+
+united-management/
+├── public/
+│   ├── images/
+│   └── icons/
+├── src/
+│   ├── app/
+│   │   ├── App.tsx
+│   │   └── routes.tsx
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── SiteHeader.tsx
+│   │   │   ├── ChapterNavigation.tsx
+│   │   │   └── SiteFooter.tsx
+│   │   ├── content/
+│   │   │   ├── SectionRenderer.tsx
+│   │   │   ├── EvidencePanel.tsx
+│   │   │   ├── SourceCitation.tsx
+│   │   │   └── KeyTakeaways.tsx
+│   │   ├── visualizations/
+│   │   │   ├── FinancialCharts.tsx
+│   │   │   ├── HistoryTimeline.tsx
+│   │   │   ├── RouteNetwork.tsx
+│   │   │   └── ManagementMap.tsx
+│   │   └── presentation/
+│   │       └── PresentationMode.tsx
+│   ├── content/
+│   │   ├── overview.ts
+│   │   ├── chapter1.ts
+│   │   ├── chapter2.ts
+│   │   ├── chapter3.ts
+│   │   ├── chapter4.ts
+│   │   ├── chapter5.ts
+│   │   ├── chapter6.ts
+│   │   ├── chapter7.ts
+│   │   └── references.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── main.tsx
+├── package.json
+└── README.md
+
+```
+
+The content files are important. They separate the research from the presentation code, making it possible to revise a paragraph, source, or statistic without rebuilding an entire chapter.
+
+### Recommended content model
+
+Every subsection should support rich content instead of a single text field.
+
+```
+
+export type ContentBlock =
+  | {
+      type: "paragraph";
+      text: string;
+    }
+  | {
+      type: "heading";
+      text: string;
+      level: 2 | 3;
+    }
+  | {
+      type: "bullets";
+      items: string[];
+    }
+  | {
+      type: "stat";
+      label: string;
+      value: string;
+      context: string;
+      sourceIds: string[];
+    }
+  | {
+      type: "chart";
+      chartId: string;
+      title: string;
+      sourceIds: string[];
+    }
+  | {
+      type: "diagram";
+      diagramId: string;
+      title: string;
+      description: string;
+    }
+  | {
+      type: "analysis";
+      title: string;
+      text: string;
+      evidenceStatus:
+        | "company-reported"
+        | "report-derived"
+        | "management-interpretation";
+    };
+
+export interface ChapterSection {
+  id: string;
+  heading: string;
+  blocks: ContentBlock[];
+  sourceIds: string[];
+}
+
+export interface Chapter {
+  number: number;
+  title: string;
+  introduction: string;
+  sections: ChapterSection[];
+  keyTakeaways: string[];
+}
+
+```
+
+This model makes it possible to support long explanations, diagrams, charts, and source attribution within the same section. The renderer should handle each block type consistently across all seven chapters.
+
+## 8. How to build it in Google AI Studio
+
+The most reliable approach is incremental generation with a fixed specification, rather than asking an AI to generate a massive website in a single prompt and hoping every requirement survives.
+
+1. Phase 1 — Generate the foundation
+
+   Create the landing page, design tokens, routing, responsive layout, chapter navigation, and reusable section renderer. Start with representative content rather than filling every page immediately.
+2. Phase 2 — Lock the content architecture
+
+   Add the seven chapters and every numbered subsection from the report. Confirm that no heading has been omitted or renamed and that long content can be displayed comfortably.
+3. Phase 3 — Populate the research
+
+   Transfer the report's content section by section. Attach citations to individual claims, mark interpretations, and create the corresponding charts and diagrams.
+4. Phase 4 — Add the interactive layer
+
+   Implement the timeline, financial explorer, process diagrams, route-network visualization, and presentation mode. Test each interaction rather than accepting decorative controls that do nothing.
+5. Phase 5 — Polish and verify
+
+   Check mobile layouts, keyboard navigation, color contrast, source links, numerical accuracy, chart labels, direct chapter URLs, and deployment behavior.
+
+## 9. Master prompt for Google AI Studio
+
+Use the following as the initial build specification. It deliberately tells the AI to build the architecture first, not to invent the contents of all seven chapters before the report has been incorporated.
+
+# PROJECT: UNITED AIRLINES — ESSENTIALS OF MANAGEMENT
+
+## Your Role
+
+Act as a senior frontend engineer, interaction designer, information architect, and editorial design specialist. Build a polished, research-rich, interactive academic presentation website about United Airlines for an Essentials of Management term project.
+
+The website must look premium and cinematic while remaining academically rigorous, readable, accessible, responsive, and practical to present in a classroom.
+
+## 1. Required Platform and Technology
+
+Build a working React + TypeScript + Vite frontend suitable for development in Google AI Studio and deployment to a compatible static hosting platform.
+
+Preferred technologies:
+
+- React and TypeScript
+- Tailwind CSS
+- Reusable React components
+- Recharts for data visualizations
+- SVG and CSS for diagrams and lightweight motion
+- Motion for React / Framer Motion for restrained transitions
+- Lucide icons
+
+Use dependencies only when they are compatible with the generated environment. Do not add unnecessary libraries.
+
+The initial version must not require a backend, authentication, database, API keys, or live external data. Use local, explicitly sourced content data.
+
+## 2. Design Direction
+
+Visual concept: Hybrid cinematic editorial + deeply interactive research presentation.
+
+Create a distinctive aviation-inspired design system using:
+
+- Midnight navy: #0B1929
+- Aviation blue: #173B5E
+- Warm ivory: #F5F2EA
+- Champagne gold: #C6A66B
+- Steel blue-grey: #9DAFB7
+- Muted sage: #D9E2DC
+
+Use refined editorial typography, large purposeful headlines, carefully composed aviation imagery, generous whitespace, subtle borders, restrained shadows, and clean data visualization.
+
+The opening should feel cinematic and atmospheric. The research sections should feel like an exceptionally well-designed editorial report with interactive evidence.
+
+Avoid generic SaaS dashboard aesthetics, excessive glassmorphism, neon colors, oversized rounded cards everywhere, gratuitous parallax, and constant animations.
+
+Use imagery only where it strengthens the narrative. Prefer properly licensed or verified assets, and do not imply that generic aviation imagery is official United Airlines photography.
+
+## 3. Preserve the Seven-Chapter Report Structure
+
+The site must contain these exact chapters and numbered subsections:
+
+CHAPTER 1 — Introduction to United Airlines\
+1.1 Company Background\
+1.2 Founding History and Timeline\
+1.3 Products/Services Offered\
+1.4 Market Presence and Industry Overview
+
+CHAPTER 2 — Planning at United Airlines\
+2.1 Nature of Planning in the Company\
+2.2 Vision, Mission, Goals, and Objectives\
+2.3 Types of Plans (strategic, tactical, operational followed in the Company)\
+2.4 Planning Process Followed\
+2.5 Policies, Programs, Procedures used in the Company
+
+CHAPTER 3 — Organizing at United Airlines\
+3.1 Organizational Structure (Line, Line & Staff, Functional, etc.)\
+3.2 Division of Labor and Departmentalization\
+3.3 Span of Control\
+3.4 Delegation of Authority\
+3.5 Unity of Command and Coordination Mechanisms
+
+CHAPTER 4 — Staffing at United Airlines\
+4.1 HR Planning and Recruitment Strategies\
+4.2 Training and Development Practices\
+4.3 Performance Appraisal Methods\
+4.4 Retention and Motivation Initiatives\
+4.5 Succession Planning
+
+CHAPTER 5 — Leadership at United Airlines\
+5.1 Leadership Style and Philosophy\
+5.2 Communication Practices\
+5.3 Motivation Techniques\
+5.4 Teamwork and Group Dynamics\
+5.5 Conflict Management and Resolution
+
+CHAPTER 6 — Controlling at United Airlines\
+6.1 Control Process (standards, measurement, corrective action)\
+6.2 Financial and Non-Financial Controls\
+6.3 Quality Management Practices\
+6.4 Use of Technology in Control\
+6.5 Feedback Mechanisms
+
+CHAPTER 7 — Conclusion\
+7.1 Key Insights from the Study\
+7.2 Lessons Learned about Management Practices\
+7.3 Overall Effectiveness of the Company’s Management Functions
+
+Also provide a sources and references page.
+
+Do not rename, merge, remove, or reorder these headings. Additional explanatory subheadings are allowed beneath them.
+
+## 4. Content Depth and Academic Integrity
+
+This is not a conventional short slide deck. It is an extensive website-based presentation.
+
+Each subsection must support detailed explanations, company-specific examples, charts or diagrams where useful, management-theory connections, implications, limitations, and source citations.
+
+Do not impose a fixed number of slides, cards, paragraphs, or screens per subsection. Use as much space as necessary to communicate the complete report accurately.
+
+When the report is supplied, use it as the primary content source. Preserve its framing, terminology, evidence, and chapter structure. Do not silently replace the report with generic online material.
+
+Clearly distinguish:
+
+1. Company-reported facts
+2. Facts and arguments presented in the supplied report
+3. Management-theory interpretation
+4. Additional externally verified research
+
+Never invent internal United Airlines procedures, employee practices, reporting structures, performance measures, quotations, or statistics. If evidence is unavailable, say so or omit the claim.
+
+Do not fabricate source citations, URLs, chart data, or quotations.
+
+## 5. Required Website Routes
+
+Create:
+
+- / — cinematic landing page
+- /overview — company snapshot and chapter navigator
+- /chapter/1 through /chapter/7 — individual chapter pages
+- /sources — bibliography and source notes
+- /presentation — presentation-mode entry point
+
+Direct loading of every route must work. Navigation must not depend on visiting the landing page first.
+
+## 6. Reusable Chapter Layout
+
+Every chapter must include:
+
+- Chapter number and title
+- A short introductory overview
+- A persistent or easily accessible subsection navigator
+- The original numbered subsections
+- Rich content blocks for detailed explanations
+- Evidence panels and relevant visualizations
+- Clearly identified management interpretations
+- Key takeaways
+- A transition to the next chapter
+- Relevant source references
+
+Build a reusable SectionRenderer that can display paragraphs, headings, lists, statistics, charts, diagrams, analysis panels, and source citations.
+
+Long content must remain readable. Avoid putting all academic content inside accordions. Important explanations should be visible by default.
+
+## 7. Required Interactive Features
+
+Implement functional versions of:
+
+- Seven-chapter navigation with current-chapter indication
+- Reading progress indicator
+- Historical timeline
+- Financial evidence explorer
+- Management-function interconnection diagram
+- Selectable explanatory diagrams
+- Source links and a consolidated bibliography
+- Keyboard-accessible presentation navigation
+- Responsive navigation on mobile
+- Optional presentation/full-screen mode
+
+Create a schematic hub or route-network visualization only when appropriate source data is available. Do not invent real flight routes or frequencies.
+
+Charts must use explicit source data, correct units, clear titles, accessible labels, and reporting periods. Never use invented numbers merely to make a chart look complete.
+
+All buttons and interactive elements must work. Do not create decorative controls that imply functionality they do not have.
+
+## 8. Presentation Mode
+
+Create a focused classroom mode with:
+
+- Reduced site chrome
+- Clear chapter and section titles
+- Keyboard navigation using left/right arrows where appropriate
+- An exit control
+- Readable content sizing
+- Optional browser full-screen support
+- Reduced-motion support
+- No required timed animations
+
+The normal website must remain fully usable without entering presentation mode.
+
+## 9. Accessibility and Performance
+
+- Use semantic HTML and logical heading levels.
+- Ensure keyboard access and visible focus indicators.
+- Provide descriptive image alt text.
+- Maintain adequate color contrast.
+- Respect prefers-reduced-motion.
+- Avoid autoplaying audio or distracting motion.
+- Optimize image sizes and loading behavior.
+- Use responsive layouts for mobile, tablet, and desktop.
+- Avoid heavy 3D libraries unless a specific, valuable interaction requires them.
+- Provide graceful fallbacks for unsupported features.
+
+## 10. Data and Source Architecture
+
+Keep content separate from presentation components.
+
+Create typed content modules for:
+
+- Overview
+- Chapter 1
+- Chapter 2
+- Chapter 3
+- Chapter 4
+- Chapter 5
+- Chapter 6
+- Chapter 7
+- References
+
+Each section should have a stable ID, its original heading, an array of rich content blocks, and associated source IDs.
+
+Keep chart data in dedicated data modules. Store sources centrally and refer to them by ID rather than duplicating bibliography text throughout the website.
+
+Use a source-status convention to distinguish company-reported facts, report-derived claims, and management interpretations.
+
+## 11. Build Process
+
+Work in controlled stages.
+
+STAGE A: Build the project foundation, routing, design system, navigation, reusable chapter layout, and responsive landing page. Populate every chapter with its correct heading structure and clearly identified temporary placeholders where the report content has not yet been transferred.
+
+STAGE B: Populate chapter content from the supplied report, subsection by subsection, without omitting material.
+
+STAGE C: Add source-backed charts, timelines, diagrams, and interactions.
+
+STAGE D: Test all routes, navigation, keyboard interactions, responsiveness, accessibility, citations, and numerical consistency.
+
+Do not claim that a feature has been implemented unless the code actually implements it. Do not replace detailed content with generic summaries to save tokens.
+
+## 12. Initial Response Required
+
+Begin by generating STAGE A only.
+
+First inspect the existing project environment and its dependencies. Reuse a valid existing setup if one is already present. Then implement the actual application files.
+
+Provide a concise implementation summary, list any remaining dependencies or setup requirements, and identify what is ready for content population.
+
+Do not generate a static mockup in place of the working website. Build the real reusable frontend foundation.
+
+## 10. Content-quality safeguards
+
+Before publishing, the website needs a deliberate accuracy pass. This is especially important because attractive visualizations can make incorrect numbers look authoritative.
+
+For example, the supplied report contains a financial-labeling error in Chapter 6. The figures should be checked against the underlying annual report before rendering the chart: $59.070 billion is total operating revenue, $54.354 billion is total operating expenses, and $4.716 billion is operating income—not $59.070 billion of operating income.&#x20;
+
+Term Project Report - United Airlines - Oct 2026.pdf
+
+
+
+I would also implement these checks:
+
+- All seven chapters and 33 numbered subsections are present.
+- No original subsection has been silently removed or renamed.
+- Every chart has a source, date, units, and correct labels.
+- Company facts and management interpretations are visually distinguishable.
+- The references page includes the report's sources, with any additional sources clearly identified.
+- No placeholder text or fake interactive controls remain.
+- Every chapter can be opened directly and navigated using a keyboard.
+- Mobile layouts work without horizontal overflow.
+- The website can be presented without requiring internet access for every interaction, apart from any external links or remotely hosted assets.
+
+## 11. Final recommendation
+
+Build this in three priorities:
+
+1. Content and structure first: the full report, all seven chapters, and every numbered subsection.
+2. Visual identity second: cinematic landing page, editorial reading experience, premium typography, and strong visual hierarchy.
+3. Interaction third: financial explorer, timeline, diagrams, and presentation mode.
+
+That order protects the most important requirement: a website that is genuinely detailed and academically useful, rather than a beautiful landing page with thin content underneath.
+
+The first deliverable should be a working website shell with the seven chapters and their exact subsection structure. Once that foundation is stable, populate the chapters one by one from your report and add the visualizations where they contribute real explanatory value.
