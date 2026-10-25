@@ -25,18 +25,6 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
   const [currentSlideIdx, setCurrentSlideIdx] = useState<number>(0);
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
 
-  // Generate slide sequence:
-  // 0: Title / Opening
-  // 1: Executive Snapshot & Central Question
-  // 2: Ch 1 Intro & Timeline
-  // 3: Ch 2 Planning Hierarchy
-  // 4: Ch 3 Organizing & NOC
-  // 5: Ch 4 Staffing & Aviate
-  // 6: Ch 5 Leadership & CRM
-  // 7: Ch 6 Controlling & Financials
-  // 8: Ch 7 Synthesis Map
-  // 9: Final Takeaways & Colophon
-
   const totalSlides = 10;
 
   const nextSlide = () => {
@@ -113,22 +101,22 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
               <div className="bg-[#173B5E]/50 p-4 rounded-lg border border-[#173B5E]">
                 <span className="text-xs text-[#9DAFB7] block">Operating Revenue</span>
                 <span className="text-2xl font-mono font-bold text-[#C6A66B]">$59.070 B</span>
-                <span className="text-[11px] text-[#9DAFB7]">Audited Form 10-K</span>
+                <span className="text-[11px] text-[#9DAFB7]">FY2025 Audited 10-K</span>
               </div>
               <div className="bg-[#173B5E]/50 p-4 rounded-lg border border-[#173B5E]">
-                <span className="text-xs text-[#9DAFB7] block">Operating Income</span>
-                <span className="text-2xl font-mono font-bold text-white">$4.716 B</span>
-                <span className="text-[11px] text-[#9DAFB7]">8.0% Operating Margin</span>
+                <span className="text-xs text-[#9DAFB7] block">Operating / Net Income</span>
+                <span className="text-2xl font-mono font-bold text-white">$4.72B / $3.36B</span>
+                <span className="text-[11px] text-[#9DAFB7]">8.0% Op / 5.7% Net Margin</span>
               </div>
               <div className="bg-[#173B5E]/50 p-4 rounded-lg border border-[#173B5E]">
                 <span className="text-xs text-[#9DAFB7] block">Commercial Fleet</span>
                 <span className="text-2xl font-mono font-bold text-white">950+ Jets</span>
-                <span className="text-[11px] text-[#9DAFB7]">700+ United Next Orders</span>
+                <span className="text-[11px] text-[#9DAFB7]">United Next Forward Orders</span>
               </div>
               <div className="bg-[#173B5E]/50 p-4 rounded-lg border border-[#173B5E]">
                 <span className="text-xs text-[#9DAFB7] block">Global Workforce</span>
-                <span className="text-2xl font-mono font-bold text-[#C6A66B]">103,000+</span>
-                <span className="text-[11px] text-[#9DAFB7]">84% Union Representation</span>
+                <span className="text-2xl font-mono font-bold text-[#C6A66B]">~103,000</span>
+                <span className="text-[11px] text-[#9DAFB7]">~82–84% Union Representation</span>
               </div>
             </div>
 
@@ -160,17 +148,16 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
                   deregulation (1978), and the $3.0B Continental merger (2010).
                 </p>
                 <p>
-                  Operates as a High-Reliability Organization (HRO) with zero tolerance for catastrophic failure.
+                  Operates as a High-Reliability Organization (HRO) requiring synchronization across FAA air traffic flow, certified mechanics, and dispatchers.
                 </p>
               </div>
               <div className="bg-[#173B5E]/40 p-4 rounded-lg border border-[#173B5E] space-y-2">
                 <strong className="text-[#C6A66B] block text-sm font-serif">1.3 & 1.4 Products & Network</strong>
                 <p>
-                  Revenue ecosystem extends from passenger cabins (Polaris, Premium Plus) to high-margin MileagePlus financing,
-                  worldwide United Cargo, and third-party Tech Ops maintenance.
+                  FY2025 Revenue base: $53.438B Passenger, $1.779B Cargo, and $3.853B Other Operating Revenue (including MileagePlus financing).
                 </p>
                 <p>
-                  Anchored by 7 mega-hubs: ORD, DEN, IAH, EWR, SFO, IAD, and LAX.
+                  Network coordinated through 7 strategic mega-hubs: ORD, DEN, IAH, EWR, SFO, IAD, and LAX.
                 </p>
               </div>
             </div>
@@ -194,21 +181,21 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
                 <strong className="text-[#C6A66B] block font-serif text-sm mb-1">Strategic (5–15 Yrs)</strong>
                 <p className="text-[#9DAFB7] mb-2">Board & Executive Suite</p>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  United Next fleet order of 700+ Boeing & Airbus jets to upgauge domestic capacity by 30%. Net zero carbon commitments for 2050.
+                  United Next fleet order of hundreds of Boeing & Airbus aircraft to upgauge domestic capacity and reduce fuel burn. Net zero carbon targets for 2050.
                 </p>
               </div>
               <div className="bg-[#173B5E]/40 p-4 rounded-lg border border-[#173B5E]">
                 <strong className="text-[#C6A66B] block font-serif text-sm mb-1">Tactical (6–18 Mos)</strong>
                 <p className="text-[#9DAFB7] mb-2">Network Planning & Revenue</p>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  Seasonal banked flight schedules, transatlantic summer capacity shifts, fare inventory management, and aircraft maintenance checks.
+                  Seasonal banked flight schedules, transatlantic summer capacity shifts, dynamic fare inventory management, and maintenance check schedules.
                 </p>
               </div>
               <div className="bg-[#173B5E]/40 p-4 rounded-lg border border-[#173B5E]">
                 <strong className="text-[#C6A66B] block font-serif text-sm mb-1">Operational (Day-of)</strong>
                 <p className="text-[#9DAFB7] mb-2">NOC & Dispatchers</p>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  Flight release sign-offs, convective weather diversions, tail routing, fuel loading, and crew rest legality under FAA Part 121.
+                  Joint flight release sign-offs under FAR 121.533, convective weather diversions, tail routing, and crew rest compliance under FAA regulations.
                 </p>
               </div>
             </div>
@@ -226,8 +213,8 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
             </h2>
             <div className="bg-[#173B5E]/30 p-5 rounded-xl border border-[#173B5E] text-xs space-y-3">
               <p className="text-sm text-[#F5F2EA] leading-relaxed">
-                United employs a hybrid <strong>Line and Staff Functional structure</strong>. Line operations carry direct
-                statutory flight authority, while Staff departments provide specialized legal, financial, and regulatory backing.
+                United employs a <strong>Line and Staff Functional structure</strong>. Line operations carry direct
+                statutory flight authority, while Staff departments provide specialized legal, financial, and technological backing.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                 <div className="bg-[#0B1929] p-3 rounded border border-[#173B5E]">
@@ -241,7 +228,7 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
                   <strong className="text-[#C6A66B] block mb-1">The NOC Integrator</strong>
                   <p className="text-[#9DAFB7]">
                     The 24/7 Network Operations Center in Chicago serves as chief cross-functional arbitrator during irregular
-                    operations (IROPS), balancing maintenance with customer connections.
+                    operations (IROPS), balancing maintenance safety with customer connections.
                   </p>
                 </div>
               </div>
@@ -262,21 +249,21 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
               <div className="bg-[#173B5E]/40 p-4 rounded-lg border border-[#173B5E] space-y-2">
                 <strong className="text-[#C6A66B] font-serif text-sm block">Backward Integration</strong>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  United Aviate Academy in Goodyear, AZ represents backward integration into pilot talent supply to insulate
-                  the carrier against systemic commercial pilot retirements.
+                  United Aviate Academy in Goodyear, AZ represents backward vertical integration into pilot talent supply to insulate
+                  the carrier against systemic commercial pilot retirement curves.
                 </p>
               </div>
               <div className="bg-[#173B5E]/40 p-4 rounded-lg border border-[#173B5E] space-y-2">
                 <strong className="text-[#C6A66B] font-serif text-sm block">Denver Flight Center</strong>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  The world's largest flight training campus, with 40+ Level-D full flight simulators conducting continuous
+                  A centralized flight training campus with dozens of Level-D full flight simulators conducting continuous
                   FAA Advanced Qualification Program (AQP) recertifications.
                 </p>
               </div>
               <div className="bg-[#173B5E]/40 p-4 rounded-lg border border-[#173B5E] space-y-2">
                 <strong className="text-[#C6A66B] font-serif text-sm block">Labor Governance</strong>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  Over 84% unionization governed by the Railway Labor Act (RLA), requiring formal federal mediation and
+                  Approx. 82–84% union representation governed by the Railway Labor Act (RLA), requiring formal federal mediation and
                   transparent seniority bidding systems.
                 </p>
               </div>
@@ -307,7 +294,7 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
               <div className="bg-[#173B5E]/40 p-5 rounded-lg border border-[#173B5E] space-y-3">
                 <strong className="text-[#C6A66B] font-serif text-sm block">Crew Resource Management (CRM)</strong>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  United pioneered CRM to flatten the steep autocratic cockpit authority gradient. Junior officers are empowered
+                  United pioneered CRM to flatten steep autocratic cockpit authority gradients. Junior officers are empowered
                   and mandated to speak up with assertive inquiries if safety tolerances are approached.
                 </p>
                 <div className="bg-[#0B1929] p-3 rounded text-[#C6A66B] font-mono">
@@ -325,7 +312,7 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
               Slide 08 · Chapter 06
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-white">
-              Controlling: Cybernetic Auditing & Verified Financials
+              Controlling: Cybernetic Auditing & Verified Financials (FY2025)
             </h2>
             <div className="mt-2">
               <FinancialCharts />
@@ -350,34 +337,50 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ onExit }) =>
 
       case 9: // Final Conclusion
         return (
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <div className="text-xs font-mono text-[#C6A66B] uppercase tracking-wider">
-              Slide 10 · Conclusion & Academic Colophon
+          <div className="max-w-4xl mx-auto space-y-5 text-left">
+            <div className="text-xs font-mono text-[#C6A66B] uppercase tracking-wider text-center">
+              Slide 10 · Qualitative Synthesis & Assessment
             </div>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-white">
-              Managerial Lessons & Final Assessment
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-white text-center">
+              Qualitative Evaluation of the Five Managerial Functions
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left text-xs pt-4">
-              <div className="bg-[#173B5E]/40 p-5 rounded-xl border border-[#173B5E] space-y-2">
-                <strong className="text-[#C6A66B] font-serif text-sm block">High-Reliability Synthesis</strong>
+            <div className="space-y-2 text-xs pt-2">
+              <div className="bg-[#173B5E]/40 p-3.5 rounded-lg border border-[#173B5E]">
+                <strong className="text-[#C6A66B] font-mono block mb-0.5">Planning: Robust Strategic Foresight</strong>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  Bureaucratic precision and high-reliability discipline are not obstacles to agility; they provide the stable foundation
-                  allowing United Airlines to withstand acute macroeconomic shocks.
+                  Evidence: Multi-year United Next fleet orders and proactive crisis capacity cuts. Suggests strong capital discipline; balanced by vulnerability to macro fuel shocks.
                 </p>
               </div>
-              <div className="bg-[#173B5E]/40 p-5 rounded-xl border border-[#173B5E] space-y-2">
-                <strong className="text-[#C6A66B] font-serif text-sm block">Enduring Principles</strong>
+              <div className="bg-[#173B5E]/40 p-3.5 rounded-lg border border-[#173B5E]">
+                <strong className="text-[#C6A66B] font-mono block mb-0.5">Organizing: Sound High-Reliability Integration</strong>
                 <p className="text-[#F5F2EA]/90 leading-relaxed">
-                  Psychological safety enables quality control; backward integration stabilizes critical labor bottlenecks;
-                  and closed-loop telemetry connects long-term planning with frontline execution.
+                  Evidence: 24/7 NOC coordination and FAR 121.533 joint operational authority. Effectively bridges technical specialization with daily network execution.
+                </p>
+              </div>
+              <div className="bg-[#173B5E]/40 p-3.5 rounded-lg border border-[#173B5E]">
+                <strong className="text-[#C6A66B] font-mono block mb-0.5">Staffing: Proactive Talent Pipeline Integration</strong>
+                <p className="text-[#F5F2EA]/90 leading-relaxed">
+                  Evidence: United Aviate Academy flight school ownership and Denver simulator campus. Proactively mitigates pilot shortages within union contract boundaries.
+                </p>
+              </div>
+              <div className="bg-[#173B5E]/40 p-3.5 rounded-lg border border-[#173B5E]">
+                <strong className="text-[#C6A66B] font-mono block mb-0.5">Leading: Transparent Crisis Direction & CRM Protocols</strong>
+                <p className="text-[#F5F2EA]/90 leading-relaxed">
+                  Evidence: Direct executive communication during downturns; institutionalized cockpit psychological safety via Crew Resource Management.
+                </p>
+              </div>
+              <div className="bg-[#173B5E]/40 p-3.5 rounded-lg border border-[#173B5E]">
+                <strong className="text-[#C6A66B] font-mono block mb-0.5">Controlling: Disciplined Cybernetic Monitoring</strong>
+                <p className="text-[#F5F2EA]/90 leading-relaxed">
+                  Evidence: Audited FY2025 financials ($59.070B Revenue, $4.716B Operating Income, $3.355B Net Income), FAA SMS compliance, and real-time ACARS telemetry.
                 </p>
               </div>
             </div>
 
-            <div className="pt-6">
+            <div className="pt-4 text-center">
               <button
                 onClick={onExit}
-                className="px-6 py-3 bg-[#C6A66B] hover:bg-[#d5b77e] text-[#0B1929] font-bold text-xs rounded-lg transition-colors cursor-pointer"
+                className="px-6 py-2.5 bg-[#C6A66B] hover:bg-[#d5b77e] text-[#0B1929] font-bold text-xs rounded-lg transition-colors cursor-pointer"
               >
                 Exit Presentation Mode & Return to Study
               </button>

@@ -38,11 +38,12 @@ export const SourcesView: React.FC<SourcesViewProps> = ({ onNavigate }) => {
             <ShieldCheck className="w-5 h-5 text-[#C6A66B] shrink-0 mt-0.5" />
             <div className="text-xs text-[#0B1929]/90 leading-relaxed font-sans">
               <strong className="text-[#0B1929] font-semibold block mb-0.5 font-serif text-sm">
-                Financial Audit Statement & Integrity Notice
+                Financial Audit Statement & Integrity Notice (FY2025 Audited Baseline)
               </strong>
               All enterprise financials reflect audited U.S. SEC Form 10-K disclosures for United Airlines Holdings, Inc.
-              Operating Revenue is confirmed at <strong>$59.070 Billion</strong>, Operating Expenses at <strong>$54.354 Billion</strong>,
-              and Operating Income at <strong>$4.716 Billion (8.0% margin)</strong>. Interpretations are distinguished
+              Total Operating Revenue is confirmed at <strong>$59.070 Billion</strong> (comprising $53.438B passenger, $1.779B cargo, and $3.853B other),
+              Total Operating Expenses at <strong>$54.354 Billion</strong>, Operating Income at <strong>$4.716 Billion (8.0% margin)</strong>,
+              and Consolidated Net Income at <strong>$3.355 Billion (5.7% margin)</strong>. Theoretical frameworks are explicitly distinguished
               from empirical company disclosures across all seven chapters.
             </div>
           </div>
@@ -81,9 +82,14 @@ export const SourcesView: React.FC<SourcesViewProps> = ({ onNavigate }) => {
             >
               <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
                 <span className="text-[#173B5E] font-bold">[{ref.id}]</span>
-                <span className="text-[#C6A66B] uppercase font-semibold">
-                  {ref.type.toUpperCase()} · {ref.year}
-                </span>
+                <div className="flex items-center gap-2">
+                  <span className="px-2 py-0.5 rounded text-[10px] uppercase font-semibold bg-[#173B5E]/10 text-[#173B5E]">
+                    {ref.verifiedStatus === "verified" ? "Audited / Verified" : ref.verifiedStatus === "derived" ? "Report-Derived" : "Theoretical Context"}
+                  </span>
+                  <span className="text-[#C6A66B] uppercase font-semibold">
+                    {ref.type.toUpperCase()} · {ref.year}
+                  </span>
+                </div>
               </div>
 
               <div className="font-serif text-lg font-bold text-[#0B1929]">

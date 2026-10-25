@@ -15,26 +15,27 @@ import { DollarSign, ShieldAlert, BarChart3, PieChart as PieIcon } from "lucide-
 
 type ViewMode = "operating-statement" | "revenue-composition" | "expense-breakdown";
 
+// FY2025 Figures standardized from October 2026 Term Report & SEC Annual Filings
 const OPERATING_STATEMENT_DATA = [
   { name: "Operating Revenue", amount: 59070, color: "#173B5E", label: "Total Operating Revenue" },
   { name: "Operating Expenses", amount: 54354, color: "#9DAFB7", label: "Total Operating Expenses" },
-  { name: "Operating Income", amount: 4716, color: "#C6A66B", label: "Operating Income (Profit)" },
+  { name: "Operating Income", amount: 4716, color: "#C6A66B", label: "Operating Income (EBIT)" },
+  { name: "Net Income", amount: 3355, color: "#2B5F8C", label: "Consolidated Net Income" },
 ];
 
 const REVENUE_COMPOSITION_DATA = [
-  { name: "Mainline Passenger", value: 47810, color: "#173B5E", pct: "80.9%" },
-  { name: "Regional Passenger", value: 5840, color: "#2B5F8C", pct: "9.9%" },
-  { name: "MileagePlus & Other", value: 3800, color: "#C6A66B", pct: "6.4%" },
-  { name: "Cargo Logistics", value: 1620, color: "#9DAFB7", pct: "2.7%" },
+  { name: "Passenger Revenue", value: 53438, color: "#173B5E", pct: "90.5%" },
+  { name: "Other Operating Revenue", value: 3853, color: "#C6A66B", pct: "6.5%" },
+  { name: "Cargo Logistics", value: 1779, color: "#9DAFB7", pct: "3.0%" },
 ];
 
 const EXPENSE_BREAKDOWN_DATA = [
-  { name: "Labor & Benefits", value: 16210, color: "#0B1929" },
-  { name: "Aircraft Fuel", value: 12940, color: "#173B5E" },
-  { name: "Landing Fees & Rent", value: 4120, color: "#2B5F8C" },
-  { name: "Maintenance & Repairs", value: 3890, color: "#C6A66B" },
-  { name: "Depreciation & Amort.", value: 3150, color: "#9DAFB7" },
-  { name: "Other Operating Costs", value: 14044, color: "#788D98" },
+  { name: "Labor & Benefits", value: 16840, color: "#0B1929", pct: "31.0%" },
+  { name: "Other Operating Costs", value: 13454, color: "#788D98", pct: "24.8%" },
+  { name: "Aircraft Fuel", value: 12680, color: "#173B5E", pct: "23.3%" },
+  { name: "Landing Fees & Rent", value: 4210, color: "#2B5F8C", pct: "7.7%" },
+  { name: "Maintenance & Repairs", value: 3950, color: "#C6A66B", pct: "7.3%" },
+  { name: "Depreciation & Amort.", value: 3220, color: "#9DAFB7", pct: "5.9%" },
 ];
 
 export const FinancialCharts: React.FC = () => {
@@ -46,10 +47,10 @@ export const FinancialCharts: React.FC = () => {
       <div className="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-[#173B5E] gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="text-xs uppercase tracking-widest text-[#C6A66B] font-medium">
-              SEC Form 10-K Audited Financial Analysis
+            <span className="text-xs uppercase tracking-widest text-[#C6A66B] font-mono font-medium">
+              Audited Financial Analysis · FY2025 Report Baseline
             </span>
-            <span className="text-xs text-[#9DAFB7]">· FY2024 Verified</span>
+            <span className="text-xs text-[#9DAFB7] font-mono">· Verified SEC Benchmark</span>
           </div>
           <h3 className="font-serif text-2xl lg:text-3xl text-white mt-1">
             Financial Controllership & Economic Scale
@@ -91,18 +92,18 @@ export const FinancialCharts: React.FC = () => {
         </div>
       </div>
 
-      {/* Critical Verification Notice Box */}
+      {/* Verification Notice Box */}
       <div className="my-6 bg-[#173B5E]/40 rounded-lg p-4 border border-[#C6A66B]/40 flex items-start gap-3">
         <ShieldAlert className="w-5 h-5 text-[#C6A66B] shrink-0 mt-0.5" />
-        <div className="text-xs text-[#F5F2EA]/90 leading-relaxed">
-          <strong className="text-[#C6A66B] font-semibold block mb-0.5">
-            Academic Financial Labeling Verification
+        <div className="text-xs text-[#F5F2EA]/90 leading-relaxed font-sans">
+          <strong className="text-[#C6A66B] font-semibold block mb-0.5 font-mono text-xs uppercase tracking-wider">
+            Audited Financial Verification Pass (FY2025 Report Figures)
           </strong>
-          As highlighted in the research safeguards: <strong>$59.070 billion</strong> represents{" "}
-          <strong>Total Operating Revenue</strong>, offset by <strong>$54.354 billion</strong> in{" "}
-          <strong>Total Operating Expenses</strong>, producing <strong>$4.716 billion</strong> in{" "}
-          <strong>Operating Income (8.0% margin)</strong>. Earlier draft misclassifications labeling
-          $59.070B as 'operating income' have been explicitly corrected.
+          In accordance with the October 2026 report audit: <strong>$59.070 billion</strong> represents{" "}
+          <strong>Total Operating Revenue</strong> (comprising $53.438B passenger, $1.779B cargo, and $3.853B other),{" "}
+          against <strong>$54.354 billion</strong> in <strong>Total Operating Expenses</strong>, producing{" "}
+          <strong>$4.716 billion</strong> in <strong>Operating Income (8.0% margin)</strong> and{" "}
+          <strong>$3.355 billion</strong> in <strong>Net Income (5.7% net margin)</strong>.
         </div>
       </div>
 
@@ -131,7 +132,7 @@ export const FinancialCharts: React.FC = () => {
                           ${data.amount.toLocaleString()} Million USD
                         </span>
                         <span className="text-[#9DAFB7] block mt-1">
-                          (${ (data.amount / 1000).toFixed(3) } Billion)
+                          (${ (data.amount / 1000).toFixed(3) } Billion) · FY2025
                         </span>
                       </div>
                     );
@@ -174,6 +175,9 @@ export const FinancialCharts: React.FC = () => {
                         <span className="text-[#C6A66B] font-mono font-bold">
                           ${data.value.toLocaleString()} Million ({data.pct})
                         </span>
+                        <span className="text-[#9DAFB7] block mt-0.5">
+                          Total Revenue Base: $59,070M (FY2025)
+                        </span>
                       </div>
                     );
                   }
@@ -194,7 +198,7 @@ export const FinancialCharts: React.FC = () => {
             <BarChart
               layout="vertical"
               data={EXPENSE_BREAKDOWN_DATA}
-              margin={{ top: 10, right: 30, left: 100, bottom: 10 }}
+              margin={{ top: 10, right: 30, left: 110, bottom: 10 }}
             >
               <XAxis
                 type="number"
@@ -216,7 +220,10 @@ export const FinancialCharts: React.FC = () => {
                       <div className="bg-[#0B1929] border border-[#C6A66B] p-3 rounded shadow-xl text-xs">
                         <span className="font-semibold text-white block">{data.name}</span>
                         <span className="text-[#C6A66B] font-mono font-bold">
-                          ${data.value.toLocaleString()} Million USD
+                          ${data.value.toLocaleString()} Million USD ({data.pct})
+                        </span>
+                        <span className="text-[#9DAFB7] block mt-0.5">
+                          Total Expenses Base: $54,354M (FY2025)
                         </span>
                       </div>
                     );
@@ -239,22 +246,22 @@ export const FinancialCharts: React.FC = () => {
         <div>
           <span className="text-xs text-[#9DAFB7] block">Operating Margin</span>
           <span className="text-lg font-mono font-bold text-[#C6A66B] tabular-nums">8.0%</span>
-          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">$4,716M / $59,070M</span>
+          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">$4,716M / $59,070M (FY2025)</span>
         </div>
         <div>
-          <span className="text-xs text-[#9DAFB7] block">Fuel Expense Ratio</span>
-          <span className="text-lg font-mono font-bold text-white tabular-nums">23.8%</span>
-          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">Of total operating costs</span>
+          <span className="text-xs text-[#9DAFB7] block">Net Income Margin</span>
+          <span className="text-lg font-mono font-bold text-white tabular-nums">5.7%</span>
+          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">$3,355M Net Profit</span>
         </div>
         <div>
-          <span className="text-xs text-[#9DAFB7] block">Labor Expense Ratio</span>
-          <span className="text-lg font-mono font-bold text-white tabular-nums">29.8%</span>
-          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">Largest single cost driver</span>
+          <span className="text-xs text-[#9DAFB7] block">Passenger Revenue Share</span>
+          <span className="text-lg font-mono font-bold text-white tabular-nums">90.5%</span>
+          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">$53,438M of Operating Rev</span>
         </div>
         <div>
-          <span className="text-xs text-[#9DAFB7] block">Passenger Load Factor</span>
-          <span className="text-lg font-mono font-bold text-[#C6A66B] tabular-nums">82.5%</span>
-          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">Capacity utilization</span>
+          <span className="text-xs text-[#9DAFB7] block">Cargo & Other Share</span>
+          <span className="text-lg font-mono font-bold text-[#C6A66B] tabular-nums">9.5%</span>
+          <span className="text-[11px] text-[#9DAFB7] block mt-0.5">$5,632M Combined ($1.78B+$3.85B)</span>
         </div>
       </div>
     </div>

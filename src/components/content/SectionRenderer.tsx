@@ -13,6 +13,7 @@ import {
   CrmModelDiagram,
   ControlLoopDiagram,
 } from "../visualizations/ProcessDiagrams";
+import { AlertCircle } from "lucide-react";
 
 interface SectionRendererProps {
   section: ChapterSection;
@@ -39,8 +40,14 @@ export const SectionRenderer: React.FC<SectionRendererProps> = ({ section }) => 
         return <ControlLoopDiagram />;
       default:
         return (
-          <div className="bg-[#0B1929] text-white p-6 rounded-lg text-xs font-mono my-4">
-            Diagram: {diagramId}
+          <div className="bg-[#0B1929] border border-[#173B5E] text-[#F5F2EA] p-5 rounded-lg text-xs font-mono my-4 space-y-1.5 shadow-sm">
+            <div className="flex items-center gap-2 text-[#C6A66B] font-semibold">
+              <AlertCircle className="w-4 h-4 text-[#C6A66B]" />
+              <span>Diagram Identifier Unmapped: {diagramId}</span>
+            </div>
+            <p className="text-[#9DAFB7] text-[11px] leading-relaxed">
+              No registered process diagram component corresponds to <code className="text-white bg-[#173B5E] px-1.5 py-0.5 rounded">{diagramId}</code> in the current visualization catalog.
+            </p>
           </div>
         );
     }
@@ -52,7 +59,17 @@ export const SectionRenderer: React.FC<SectionRendererProps> = ({ section }) => 
       case "revenue-breakdown":
         return <FinancialCharts />;
       default:
-        return <FinancialCharts />;
+        return (
+          <div className="bg-[#0B1929] border border-[#173B5E] text-[#F5F2EA] p-5 rounded-lg text-xs font-mono my-4 space-y-1.5 shadow-sm">
+            <div className="flex items-center gap-2 text-[#C6A66B] font-semibold">
+              <AlertCircle className="w-4 h-4 text-[#C6A66B]" />
+              <span>Chart Identifier Unmapped: {chartId}</span>
+            </div>
+            <p className="text-[#9DAFB7] text-[11px] leading-relaxed">
+              No registered chart visualization corresponds to <code className="text-white bg-[#173B5E] px-1.5 py-0.5 rounded">{chartId}</code> in the rendering catalog.
+            </p>
+          </div>
+        );
     }
   };
 

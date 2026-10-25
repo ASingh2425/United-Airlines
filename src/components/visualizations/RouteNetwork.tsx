@@ -30,16 +30,16 @@ export const RouteNetwork: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-[#173B5E] gap-4">
         <div>
-          <span className="text-xs uppercase tracking-widest text-[#C6A66B] font-medium">
+          <span className="text-xs uppercase tracking-widest text-[#C6A66B] font-mono font-medium">
             Network Architecture & Hub-and-Spoke Economics
           </span>
           <h3 className="font-serif text-2xl lg:text-3xl text-white mt-1">
             7 Strategic Mega-Hubs & Global Gateways
           </h3>
         </div>
-        <div className="text-xs text-[#9DAFB7] flex items-center gap-2">
+        <div className="text-xs text-[#9DAFB7] flex items-center gap-2 font-mono">
           <Globe className="w-4 h-4 text-[#C6A66B]" />
-          <span>Interactive schematic map · Select node to inspect hub traffic</span>
+          <span>Interactive schematic map · Select node to inspect hub traffic flow</span>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export const RouteNetwork: React.FC = () => {
         <div className="lg:col-span-7 bg-[#173B5E]/30 rounded-lg p-4 border border-[#173B5E] relative overflow-hidden">
           <div className="text-[11px] font-mono text-[#9DAFB7] mb-2 flex items-center justify-between">
             <span>U.S. CONTINENTAL TRUNK MESH (SCHEMATIC)</span>
-            <span className="text-[#C6A66B]">4,500+ Daily Departures</span>
+            <span className="text-[#C6A66B]">~4,000–4,500 Peak Daily Network Flights</span>
           </div>
 
           <svg
@@ -166,9 +166,9 @@ export const RouteNetwork: React.FC = () => {
             <div className="flex items-center justify-between text-xs text-[#9DAFB7] mb-2 font-mono">
               <span className="flex items-center gap-1 text-[#C6A66B]">
                 <MapPin className="w-3.5 h-3.5" />
-                {activeHub.code} · Hub Node
+                {activeHub.code} · Hub Station
               </span>
-              <span>{activeHub.destinations} Destinations</span>
+              <span>{activeHub.destinations}</span>
             </div>
 
             <h4 className="text-xl font-serif text-white font-medium mb-1">
@@ -181,14 +181,14 @@ export const RouteNetwork: React.FC = () => {
             <div className="grid grid-cols-2 gap-3 my-4 py-3 border-y border-[#173B5E]">
               <div>
                 <span className="text-[11px] text-[#9DAFB7] block">Daily Departures</span>
-                <span className="text-lg font-mono font-bold text-white tabular-nums">
+                <span className="text-sm font-mono font-bold text-white tabular-nums">
                   {activeHub.dailyDepartures}
                 </span>
               </div>
               <div>
-                <span className="text-[11px] text-[#9DAFB7] block">Network Reach</span>
-                <span className="text-lg font-mono font-bold text-white tabular-nums">
-                  {activeHub.destinations} Nonstop
+                <span className="text-[11px] text-[#9DAFB7] block">Network Destinations</span>
+                <span className="text-sm font-mono font-bold text-white tabular-nums">
+                  {activeHub.destinations}
                 </span>
               </div>
             </div>
@@ -201,7 +201,7 @@ export const RouteNetwork: React.FC = () => {
 
           <div className="bg-[#0B1929]/70 rounded p-3 text-[11px] text-[#9DAFB7] border border-[#173B5E]">
             <span className="text-[#C6A66B] font-semibold block mb-0.5">
-              Managerial Concept: Geographic Coordination
+              Managerial Framework: Geographic Coordination
             </span>
             Hub-and-spoke banking concentrates passenger arrivals into discrete waves (connecting banks), allowing United to fill widebody international flights with domestic feeder passengers.
           </div>

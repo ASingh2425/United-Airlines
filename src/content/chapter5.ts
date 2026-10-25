@@ -7,11 +7,11 @@ export const CHAPTER_5: Chapter = {
   managementFunction: "Leading (POLC Function 4)",
   introduction:
     "Leadership at United Airlines operates at the intersection of transformational strategic vision, high-stakes operational crisis management, and cockpit psychological safety. Leading a geographically dispersed workforce under constant consumer scrutiny demands transparent communication, shared organizational purpose, and collaborative labor negotiation.",
-  sourceIds: ["term-report-2026", "daft-management-13", "robbins-coulter-2022"],
+  sourceIds: ["term-report-2026", "daft-management-13", "robbins-coulter-2022", "sec-10k-2025"],
   keyTakeaways: [
-    "Executive leadership under CEO Scott Kirby combines data-driven network optimization with transparent, decisive crisis management (exemplified during COVID-19 pandemic early capacity cuts).",
+    "Executive leadership under CEO Scott Kirby combines data-driven network optimization with transparent, decisive crisis management (exemplified during early pandemic capacity reductions).",
     "Communication flows combine multi-channel digital town halls with real-time operational briefings (pre-flight crew briefings, dispatch releases).",
-    "Motivation techniques rely on Herzberg's two-factor theory: mitigating hygiene dissatisfaction through competitive union wages while building intrinsic motivation through organizational pride and customer service impact.",
+    "Motivation techniques reflect Herzberg's two-factor theory: mitigating hygiene dissatisfaction through competitive union wages while building intrinsic motivation through organizational pride and customer service impact.",
     "Crew Resource Management (CRM) represents the airline industry's greatest contribution to organizational leadership, replacing autocratic cockpit hierarchies with egalitarian team inquiry.",
   ],
   sections: [
@@ -23,7 +23,7 @@ export const CHAPTER_5: Chapter = {
         {
           type: "paragraph",
           lead: true,
-          text: "Executive leadership at United has transformed over the past decade from transactional administrative stewardship into a hybrid of data-driven transformational and pragmatic situational leadership.",
+          text: "Executive leadership at United reflects a combination of data-driven strategic planning and pragmatic situational leadership during operational disruptions.",
         },
         {
           type: "quote",
@@ -35,15 +35,15 @@ export const CHAPTER_5: Chapter = {
         {
           type: "bullets",
           items: [
-            "Data-Driven Analytical Rigor: Prioritizing mathematical revenue management models and aircraft economics over intuitive guesswork.",
-            "Decisive Crisis Leadership: Demonstrated during the initial onset of the COVID-19 pandemic, when United became the first major airline to proactively ground international capacity and sound early alarms, preserving corporate liquidity.",
-            "Transformational Strategy: Unifying the global workforce behind the ambitious 'United Next' narrative and customer experience investments.",
+            "Data-Driven Analytical Focus: Emphasizing mathematical revenue management models and aircraft gauge economics over subjective intuition.",
+            "Decisive Crisis Leadership: Demonstrated during the onset of the COVID-19 pandemic, when United became the first major U.S. airline to proactively ground international capacity and issue early liquidity warnings.",
+            "Transformational Strategy: Aligning corporate investments behind the 'United Next' multi-year fleet and cabin modernization narrative.",
           ],
         },
         {
           type: "analysis",
-          title: "Situational Leadership Across Operational Tiers",
-          text: "Applying Hersey and Blanchard's Situational Leadership Model: executive leaders adopt a 'Delegating' and 'Selling' style regarding corporate innovation, while flight operations and station turn management adopt a high-task, directive 'Telling' style to ensure strict regulatory compliance and safety.",
+          title: "Theoretical Lens: Applying Hersey-Blanchard Situational Leadership",
+          text: "Through Hersey & Blanchard's situational leadership model, researchers observe that executive leadership exercises a delegating style regarding functional corporate initiatives, while flight operations and station turn management apply directive standard procedures to guarantee regulatory compliance and flight safety.",
           evidenceStatus: "management-interpretation",
         },
       ],
@@ -61,9 +61,9 @@ export const CHAPTER_5: Chapter = {
         {
           type: "bullets",
           items: [
-            "Downward Communication: Executive video briefings, company-wide intranet announcements, quarterly town halls, and direct email messages from senior leadership explaining financial earnings and fleet plans.",
-            "Horizontal Operational Communication: Real-time ACARS (Aircraft Communications Addressing and Reporting System) data links between cockpits and dispatchers, digital gate updates, and pre-departure briefings between flight attendants and flight deck crews.",
-            "Upward Feedback Channels: Non-punitive safety reporting programs (ASAP), anonymous employee pulse surveys, and formal labor-management consultation committees.",
+            "Downward Communication: Executive video briefings, company-wide intranet announcements, quarterly town halls, and direct messages explaining financial earnings and fleet plans.",
+            "Horizontal Operational Communication: Real-time ACARS data links between cockpits and dispatchers, digital gate updates, and pre-departure briefings between flight attendants and flight deck crews.",
+            "Upward Feedback Channels: Non-punitive safety reporting programs (such as ASAP), anonymous employee pulse surveys, and formal labor-management consultation committees.",
           ],
         },
       ],
@@ -76,19 +76,19 @@ export const CHAPTER_5: Chapter = {
         {
           type: "paragraph",
           lead: true,
-          text: "Motivation at United Airlines reflects Herzberg's Motivation-Hygiene Theory. Due to the high-stress, unpredictable nature of airline work, hygiene factors must first be stabilized before intrinsic motivators can take effect.",
+          text: "Motivation at United Airlines can be analyzed through Frederick Herzberg's Motivation-Hygiene Theory. Given the unpredictable nature of airline operations, hygiene factors must be stabilized before intrinsic motivators can take hold.",
         },
         {
           type: "bullets",
           items: [
-            "Hygiene Factors: Market-leading hourly pay rates, comprehensive health insurance, fatigue management policies, and job security protections negotiated under union contracts.",
-            "Motivator Factors: Recognition awards ('Service Heroes' awards), career advancement into widebody international flying, and the intrinsic pride of facilitating global human travel.",
+            "Hygiene Factors: Market-aligned hourly pay rates, comprehensive health coverage, fatigue management policies, and job security protections negotiated under collective bargaining agreements.",
+            "Motivator Factors: Employee recognition programs, opportunities for progression into international widebody flying, and the intrinsic pride associated with facilitating global transportation.",
           ],
         },
         {
           type: "analysis",
-          title: "Intrinsic vs. Extrinsic Drivers in Airline Frontlines",
-          text: "Research demonstrates that frontline airline personnel (gate agents and flight attendants) frequently suffer from emotional labor exhaustion. Beyond financial compensation, empowering employees with genuine authority to solve passenger problems acts as a potent intrinsic motivator, restoring agency in high-conflict environments.",
+          title: "Theoretical Lens: Herzberg's Dual-Factor Framework Applied to Frontlines",
+          text: "Organizational research indicates that frontline airline personnel (gate agents and cabin crew) often experience emotional labor fatigue. Beyond baseline compensation (hygiene), empowering frontline staff with discretion to resolve customer service disruptions acts as an intrinsic motivator by restoring personal agency.",
           evidenceStatus: "management-interpretation",
         },
       ],
@@ -101,7 +101,7 @@ export const CHAPTER_5: Chapter = {
         {
           type: "paragraph",
           lead: true,
-          text: "Perhaps the most celebrated teamwork paradigm in modern organizational psychology is Crew Resource Management (CRM), originally pioneered by United Airlines in the late 1970s and early 1980s.",
+          text: "Perhaps the most celebrated teamwork paradigm in modern organizational psychology is Crew Resource Management (CRM), pioneered by United Airlines in the early 1980s.",
         },
         {
           type: "diagram",
@@ -112,8 +112,8 @@ export const CHAPTER_5: Chapter = {
         {
           type: "bullets",
           items: [
-            "Flattening the Cockpit Gradient: Fostering an atmosphere where junior First Officers are mandated to speak up and question the Captain's decisions if safety parameters are breached.",
-            "Shared Mental Models: Establishing standardized pre-flight briefings covering expected weather, turbulence, aircraft weight, and contingency diversion plans so all crew members share identical operational expectations.",
+            "Flattening the Cockpit Gradient: Fostering an atmosphere where junior First Officers are mandated to speak up and question decisions if safety parameters are breached.",
+            "Shared Mental Models: Establishing standardized pre-flight briefings covering expected weather, turbulence, aircraft weight, and contingency plans so all crew members share identical operational expectations.",
             "Transient Team Coordination: Unlike conventional office teams that remain together for years, flight crews change nearly every trip sequence; CRM provides the universal protocol allowing strangers to function as an elite unit within minutes.",
           ],
         },
@@ -122,7 +122,7 @@ export const CHAPTER_5: Chapter = {
     {
       id: "5.5",
       heading: "5.5 Conflict Management and Resolution",
-      sourceIds: ["sec-10k-2024", "robbins-coulter-2022"],
+      sourceIds: ["sec-10k-2025", "robbins-coulter-2022"],
       blocks: [
         {
           type: "paragraph",

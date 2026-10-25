@@ -83,32 +83,32 @@ export const LandingView: React.FC<LandingViewProps> = ({ onNavigate }) => {
         <div className="relative z-10 max-w-7xl mx-auto w-full pt-8 border-t border-[#173B5E]">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             <div>
-              <span className="text-xs text-[#9DAFB7] font-mono block">FY2024 Operating Revenue</span>
+              <span className="text-xs text-[#9DAFB7] font-mono block">FY2025 Operating Revenue</span>
               <span className="text-xl sm:text-2xl font-mono font-bold text-[#C6A66B] tabular-nums">
                 $59.070 B
               </span>
-              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">Audited Form 10-K</span>
+              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">Audited Form 10-K ($53.44B Pax)</span>
             </div>
             <div>
-              <span className="text-xs text-[#9DAFB7] font-mono block">Global Workforce</span>
+              <span className="text-xs text-[#9DAFB7] font-mono block">Operating & Net Income</span>
               <span className="text-xl sm:text-2xl font-mono font-bold text-white tabular-nums">
-                103,000+
+                $4.716 B / $3.355 B
               </span>
-              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">~84% Unionized Crafts</span>
+              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">8.0% Operating / 5.7% Net Margin</span>
             </div>
             <div>
               <span className="text-xs text-[#9DAFB7] font-mono block">Commercial Fleet</span>
               <span className="text-xl sm:text-2xl font-mono font-bold text-white tabular-nums">
                 950+ Mainline
               </span>
-              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">700+ Forward Orders</span>
+              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">United Next Multi-Year Orders</span>
             </div>
             <div>
-              <span className="text-xs text-[#9DAFB7] font-mono block">Daily Flight Scale</span>
+              <span className="text-xs text-[#9DAFB7] font-mono block">Worldwide Headcount</span>
               <span className="text-xl sm:text-2xl font-mono font-bold text-[#C6A66B] tabular-nums">
-                4,500+
+                ~103,000
               </span>
-              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">Departures Across 6 Continents</span>
+              <span className="text-[11px] text-[#9DAFB7] block mt-0.5">~82–84% Union Representation</span>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export const LandingView: React.FC<LandingViewProps> = ({ onNavigate }) => {
                 Extreme Time Horizons
               </h3>
               <p className="text-xs text-[#0B1929]/75 leading-relaxed">
-                Planning must commit billions to 10-year aircraft deliveries while operational dispatchers
+                Planning must commit billions to multi-year aircraft deliveries while operational dispatchers
                 adjust flight plans minute-by-minute.
               </p>
             </div>
@@ -183,7 +183,7 @@ export const LandingView: React.FC<LandingViewProps> = ({ onNavigate }) => {
                 Labor & Capital Balance
               </h3>
               <p className="text-xs text-[#0B1929]/75 leading-relaxed">
-                Over 84% unionization under the Railway Labor Act requires formal mediation, seniority rosters,
+                Over 80% unionization under the Railway Labor Act requires formal mediation, seniority rosters,
                 and interest-based bargaining.
               </p>
             </div>
